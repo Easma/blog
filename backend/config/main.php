@@ -13,8 +13,20 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=blog',
+            'username' => 'root',
+            'password' => 'qwe123',
+            'charset' => 'utf8',
+        ],
+        'mailer' => [
+            'class' => 'yii\swiftmailer\Mailer',
+            'viewPath' => '@common/mail',
+        ],
         'request' => [
             'csrfParam' => '_csrf-backend',
+            'baseUrl'=>'/easma'
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -37,14 +49,13 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
+            //'suffix' => '.html',  // 伪后缀
+            'rules'=>[
             ],
         ],
-        */
     ],
     'params' => $params,
 ];

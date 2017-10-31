@@ -10,7 +10,7 @@
             <!-- timeline time label -->
             <li class="time-label">
                   <span class="bg-red">
-                    10 Feb. 2014
+                      2017年
                   </span>
             </li>
             <!-- /.timeline-label -->
@@ -70,7 +70,7 @@
             <!-- timeline time label -->
             <li class="time-label">
                   <span class="bg-green">
-                    3 Jan. 2014
+                      2016年
                   </span>
             </li>
             <!-- /.timeline-label -->
@@ -79,7 +79,7 @@
                 <i class="fa fa-camera bg-purple"></i>
 
                 <div class="timeline-item">
-                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <span class="time"><i class="fa fa-clock-o"></i>3月6日 11点12分</span>
 
                     <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
 

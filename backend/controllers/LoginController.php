@@ -9,10 +9,14 @@ use yii\filters\AccessControl;
 use common\models\LoginForm;
 
 /**
- * Login controller
+ * 登陆注册功能控制器
+ * Class LoginController
+ * @package backend\controllers
  */
 class LoginController extends Controller
 {
+    public $layout = 'login';
+
     /**
      * @inheritdoc
      */
@@ -52,16 +56,6 @@ class LoginController extends Controller
                 'class' => 'yii\web\ErrorAction',
             ],
         ];
-    }
-
-    /**
-     * Displays homepage.
-     *
-     * @return string
-     */
-    public function actionIndex()
-    {
-        return $this->render('index');
     }
 
     /**

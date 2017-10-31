@@ -52,8 +52,12 @@ class RegisterForm extends Model
         }
     }
 
-    public function checkPassword(){
-
+    public function checkPassword($attribute){
+        if (!$this->hasErrors()) {
+            if(trim($this->retype_password) != trim($this->password)){
+                $this->addError($attribute,'password error');
+            }
+        }
     }
 
     /**
@@ -64,7 +68,7 @@ class RegisterForm extends Model
     public function register()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->agree ? 3600 * 24 * 30 : 0);
+            return true;
         } else {
             return false;
         }

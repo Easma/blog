@@ -47,25 +47,21 @@ $fieldOptions4 = [
         <?= $form
             ->field($model, 'email', $fieldOptions2)
             ->label(false)
-            ->passwordInput(['placeholder' => $model->getAttributeLabel('Email')]) ?>
+            ->textInput(['placeholder' => $model->getAttributeLabel('email')]) ?>
 
         <?= $form
             ->field($model, 'password', $fieldOptions3)
             ->label(false)
-            ->passwordInput(['placeholder' => $model->getAttributeLabel('Password')]) ?>
+            ->passwordInput(['placeholder' => $model->getAttributeLabel('password')]) ?>
 
         <?= $form
             ->field($model, 'retype_password', $fieldOptions4)
             ->label(false)
-            ->passwordInput(['placeholder' => $model->getAttributeLabel('Retype password')]) ?>
+            ->passwordInput(['placeholder' => $model->getAttributeLabel('retype_password')]) ?>
 
             <div class="row">
                 <div class="col-xs-8">
-                    <div class="checkbox icheck">
-                        <label>
-                            <?= $form->field($model, 'agree')->checkbox() ?> I agree to the <a href="#">terms</a>
-                        </label>
-                    </div>
+                    <a href="" class="text-center">I already have a membership</a>
                 </div>
                 <!-- /.col -->
                 <div class="col-xs-4">
@@ -75,8 +71,6 @@ $fieldOptions4 = [
             </div>
 
         <?php ActiveForm::end(); ?>
-
-        <a href="" class="text-center">I already have a membership</a>
     </div>
     <!-- /.form-box -->
 </div>

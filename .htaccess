@@ -1,6 +1,19 @@
 <IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ backend/web/index.php/$1 [NC,L]
+
+#prevent directory listings
+Options -Indexes
+#follow symbolic links
+Options FollowSymlinks
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ backend/web/index.php/$1 [NC,L]
+RewriteCond %{REQUEST_URI} ^/easma/$
+RewriteRule ^(easma)/$ /$1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^/easma
+RewriteRule ^easma(/.+)?$ /backend/web/$1 [L,PT]
+
+RewriteCond %{REQUEST_URI} ^.*$
+RewriteRule ^(.*)$ /backend/web/index.php/site/home
 </IfModule>
