@@ -84,10 +84,45 @@
                     <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
 
                     <div class="timeline-body">
+                        <a data-fancybox="gallery1" href="http://via.placeholder.com/900x600" title="">
                         <img src="http://placehold.it/150x100" alt="..." class="margin">
-                        <img src="http://placehold.it/150x100" alt="..." class="margin">
-                        <img src="http://placehold.it/150x100" alt="..." class="margin">
-                        <img src="http://placehold.it/150x100" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery1" href="http://via.placeholder.com/900x600" title="">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery1" href="http://via.placeholder.com/900x600" title="">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery1" href="http://via.placeholder.com/900x600" title="">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i>3月6日 11点12分</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
+                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
+                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
+                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
+                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        </a>
                     </div>
                 </div>
             </li>
@@ -103,7 +138,7 @@
 
                     <div class="timeline-body">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <video id="my-video" class="video-js" controls preload="auto" poster="MY_VIDEO_POSTER.jpg" >
+                            <video id="my-video" class="video-js" controls preload="auto" poster="http://vjs.zencdn.net/v/oceans.png" >
                                 <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
                                 <p class="vjs-no-js">
                                     To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -128,10 +163,13 @@
 <!-- /.row -->
 <link href="http://vjs.zencdn.net/6.2.5/video-js.css" rel="stylesheet">
 <script src="http://vjs.zencdn.net/6.2.5/video.min.js"></script>
+
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+
 <script type="text/javascript">
-    videojs("example_video_1", {}, function(){
-        // Player (this) is initialized and ready.
-        var myPlayer = this;
-        myPlayer.play();
-    });
+
 </script>
+
