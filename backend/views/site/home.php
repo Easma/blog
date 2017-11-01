@@ -10,7 +10,7 @@
             <!-- timeline time label -->
             <li class="time-label">
                   <span class="bg-red">
-                      2017年
+                      2017
                   </span>
             </li>
             <!-- /.timeline-label -->
@@ -70,7 +70,7 @@
             <!-- timeline time label -->
             <li class="time-label">
                   <span class="bg-green">
-                      2016年
+                      2016
                   </span>
             </li>
             <!-- /.timeline-label -->
@@ -79,7 +79,7 @@
                 <i class="fa fa-camera bg-purple"></i>
 
                 <div class="timeline-item">
-                    <span class="time"><i class="fa fa-clock-o"></i>3月6日 11点12分</span>
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
 
                     <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
 
@@ -106,22 +106,22 @@
                 <i class="fa fa-camera bg-purple"></i>
 
                 <div class="timeline-item">
-                    <span class="time"><i class="fa fa-clock-o"></i>3月6日 11点12分</span>
+                    <span class="time"><i class="fa fa-clock-o"></i>3月6日11点</span>
 
                     <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
 
                     <div class="timeline-body">
-                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
-                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/100x80" alt="..." class="margin">
                         </a>
-                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
-                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/100x80" alt="..." class="margin">
                         </a>
-                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
-                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/100x80" alt="..." class="margin">
                         </a>
-                        <a data-fancybox="gallery2" href="http://via.placeholder.com/800x800" title="">
-                            <img src="http://placehold.it/100x100" alt="..." class="margin">
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/100x80" alt="..." class="margin">
                         </a>
                     </div>
                 </div>
@@ -153,6 +153,146 @@
                 </div>
             </li>
             <!-- END timeline item -->
+
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-black">
+                      2015
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-purple">
+                      2014
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-orange">
+                      2013
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
+
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-olive">
+                      2012
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-blue">
+                      2011
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-maroon">
+                      2010
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            <li>
+                <i class="fa fa-camera bg-purple"></i>
+
+                <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
+
+                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                    <div class="timeline-body">
+
+                    </div>
+                </div>
+            </li>
+            <!-- END timeline item -->
+
             <li>
                 <i class="fa fa-clock-o bg-gray"></i>
             </li>
@@ -161,6 +301,12 @@
     <!-- /.col -->
 </div>
 <!-- /.row -->
+<style type="text/css">
+.timeline>li>.fa{left:5px;}
+.timeline:before{left:18px;}
+.timeline>li{margin-right:0px;}
+.timeline>li>.timeline-item{margin-right: 0px;margin-left:45px;}
+</style>
 <link href="http://vjs.zencdn.net/6.2.5/video-js.css" rel="stylesheet">
 <script src="http://vjs.zencdn.net/6.2.5/video.min.js"></script>
 
