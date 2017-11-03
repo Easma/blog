@@ -1,5 +1,6 @@
 <?php
 
+\backend\assets\BackendAsset::addCss($this,'@web/css/overwrite.adminlet.css');
 ?>
 
 <!-- row -->
@@ -284,10 +285,26 @@
                 <div class="timeline-item">
                     <span class="time"><i class="fa fa-clock-o"></i> 3月6日11点</span>
 
-                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+                    <h3 class="timeline-header">
+                        <a><i class="fa fa-map-marker"></i> 湖南·张家界</a>
+                    </h3>
 
                     <div class="timeline-body">
-
+                        <div class="timeline-title">
+                            阿达的说法的发生的发生的发的说法的是发的发的发是打发打发打发是的但是发送到sdfsdf
+                        </div>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/66x80" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/66x80" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/66x80" alt="..." class="margin">
+                        </a>
+                        <a data-fancybox="gallery2" href="http://via.placeholder.com/700x560" title="">
+                            <img src="http://placehold.it/66x80" alt="..." class="margin">
+                        </a>
                     </div>
                 </div>
             </li>
@@ -301,21 +318,5 @@
     <!-- /.col -->
 </div>
 <!-- /.row -->
-<style type="text/css">
-.timeline>li>.fa{left:5px;}
-.timeline:before{left:18px;}
-.timeline>li{margin-right:0px;}
-.timeline>li>.timeline-item{margin-right: 0px;margin-left:45px;}
-</style>
-<link href="http://vjs.zencdn.net/6.2.5/video-js.css" rel="stylesheet">
-<script src="http://vjs.zencdn.net/6.2.5/video.min.js"></script>
 
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
-
-<script type="text/javascript">
-
-</script>
 

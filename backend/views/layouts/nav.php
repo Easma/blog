@@ -16,16 +16,15 @@ use yii\helpers\Html;
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">主页 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">作品</a></li>
+                    <li><a href="#">主页</a></li>
+                    <li><a href="#">动态<!--<span class="sr-only">(current)</span>--></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">随笔<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">生活</a></li>
-                            <li><a href="#">游记</a></li>
-                            <li class="divider"></li>
+                            <li><a href="#">作品</a></li>
+                            <!--<li class="divider"></li>-->
                             <li><a href="#">技术</a></li>
-                            <li class="divider"></li>
+                            <!--<li class="divider"></li>-->
                             <li><a href="#">关于</a></li>
                         </ul>
                     </li>

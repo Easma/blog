@@ -4,13 +4,14 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-if (class_exists('backend\assets\AppAsset')) {
-    backend\assets\AppAsset::register($this);
-}
+//if (class_exists('backend\assets\AppAsset')) {
+//    backend\assets\AppAsset::register($this);
+//}
 
-dmstr\web\AdminLteAsset::register($this);
+//dmstr\web\AdminLteAsset::register($this);
 
-$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
+\backend\assets\BackendAsset::register($this);
+//$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
 ?>
 
 <?php $this->beginPage()?>
@@ -29,20 +30,19 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
 <body class="hold-transition skin-blue layout-top-nav">
 <?php $this->beginBody() ?>
 <div class="wrapper">
-    <?= $this->render('nav.php',['directoryAsset' => $directoryAsset]) ?>
+    <?= $this->render('nav.php') ?>
     <!-- Full Width Column -->
     <div class="content-wrapper">
         <div class="container">
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Top Navigation
-                    <small>Example 2.0</small>
+                    May the force be with you.
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li><a href="#">Layout</a></li>
-                    <li class="active">Top Navigation</li>
+                    <li><a href="#"><i class="fa fa-home"></i>主页</a></li>
+                    <!--<li><a href="#">Layout</a></li>-->
+                    <li class="active">动态</li>
                 </ol>
             </section>
 
@@ -57,11 +57,6 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
     <!-- /.content-wrapper -->
     <footer class="main-footer">
         <div class="container">
-            <div class="pull-right hidden-xs">
-                <b>Version</b> 2.4.0
-            </div>
-            <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
-            reserved.
         </div>
         <!-- /.container -->
     </footer>
