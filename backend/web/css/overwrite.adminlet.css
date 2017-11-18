@@ -3,3 +3,4 @@
 .timeline:before{left:18px;}
 .timeline>li{margin-right:0;}
 .timeline>li>.timeline-item{margin-right:0;margin-left:45px;}
+.timeline-title{margin-left:10px;}
