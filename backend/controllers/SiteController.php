@@ -51,6 +51,7 @@ class SiteController extends Controller
     }
 
     public function actionHome(){
+        $this->getView()->title = '马英豪的博客';
         return $this->render('home');
     }
 }

@@ -37,7 +37,7 @@ use yii\helpers\Html;
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    May the force be with you.
+                    历经千帆,不忘初心
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="#"><i class="fa fa-home"></i>主页</a></li>
