@@ -50,8 +50,12 @@ class SiteController extends Controller
         return $this->render('404');
     }
 
+    public function actionTest(){
+        echo 'test';
+    }
+
     public function actionHome(){
-        $this->getView()->title = '马英豪的博客';
+        $this->getView()->title = '愿历经千帆亦不忘初心';
         return $this->render('home');
     }
 }

@@ -22,6 +22,7 @@ use yii\helpers\Html;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title)?></title>
+    <meta name="author" content="马英豪">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <?php $this->head() ?>
@@ -37,7 +38,7 @@ use yii\helpers\Html;
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    历经千帆,不忘初心
+                    愿历经千帆亦不忘初心
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="#"><i class="fa fa-home"></i>主页</a></li>
