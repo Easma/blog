@@ -15,7 +15,7 @@ use yii\filters\AccessControl;
  */
 class SiteController extends Controller
 {
-    public $layout = 'web';
+    public $layout = 'main';
 
     /**
      * @inheritdoc
@@ -58,7 +58,8 @@ class SiteController extends Controller
     }
 
     public function actionHome(){
-        $this->getView()->title = '愿历经千帆亦不忘初心';
+        Yii::$app->name = 'MYH';
+        $this->getView()->title = 'sds';
         return $this->render('home');
     }
 
