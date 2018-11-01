@@ -337,3 +337,11 @@ $baseUrl = Yii::$app->request->baseUrl;
 <!-- /.row -->
 
 
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+
+        var address = returnCitySN['cip']+returnCitySN['cname'];
+        console.log(address);
+</script>
+
+

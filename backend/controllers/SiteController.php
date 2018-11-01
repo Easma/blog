@@ -1,7 +1,9 @@
 <?php
 namespace backend\controllers;
 
+use common\helpers\Tools;
 use Yii;
+use yii\log\Logger;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
@@ -43,6 +45,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        Tools::getClientIpInfo();
         return $this->render('index');
     }
 
@@ -57,5 +60,9 @@ class SiteController extends Controller
     public function actionHome(){
         $this->getView()->title = '愿历经千帆亦不忘初心';
         return $this->render('home');
+    }
+
+    public function actionGetIpInfo(){
+
     }
 }

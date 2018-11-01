@@ -128,10 +128,18 @@
 <!-- /.row -->
 <link href="http://vjs.zencdn.net/6.2.5/video-js.css" rel="stylesheet">
 <script src="http://vjs.zencdn.net/6.2.5/video.min.js"></script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript">
+
+
     videojs("example_video_1", {}, function(){
         // Player (this) is initialized and ready.
         var myPlayer = this;
         myPlayer.play();
+    });
+
+    $(function () {
+        var address = returnCitySN['cip']+returnCitySN['cname'];
+        console.log(address);
     });
 </script>
