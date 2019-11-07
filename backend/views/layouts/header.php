@@ -19,8 +19,9 @@ use yii\helpers\Html;
 
             <ul class="nav navbar-nav">
 
+                <!--这里的块添加了style=display:none去除就可以显示 -->
                 <!-- Messages: style can be found in dropdown.less-->
-                <li class="dropdown messages-menu">
+                <li class="dropdown messages-menu" style="display:none;">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-envelope-o"></i>
                         <span class="label label-success">4</span>
@@ -101,7 +102,9 @@ use yii\helpers\Html;
                         <li class="footer"><a href="#">See All Messages</a></li>
                     </ul>
                 </li>
-                <li class="dropdown notifications-menu">
+
+                <!--notify-->
+                <li class="dropdown notifications-menu" style="display:none;">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-bell-o"></i>
                         <span class="label label-warning">10</span>
@@ -143,8 +146,11 @@ use yii\helpers\Html;
                         <li class="footer"><a href="#">View all</a></li>
                     </ul>
                 </li>
+
+
+
                 <!-- Tasks: style can be found in dropdown.less -->
-                <li class="dropdown tasks-menu">
+                <li class="dropdown tasks-menu" style="display:none;">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-flag-o"></i>
                         <span class="label label-danger">9</span>
@@ -225,6 +231,7 @@ use yii\helpers\Html;
                         </li>
                     </ul>
                 </li>
+
                 <!-- User Account: style can be found in dropdown.less -->
 
                 <li class="dropdown user user-menu">
@@ -272,9 +279,13 @@ use yii\helpers\Html;
                 </li>
 
                 <!-- User Account: style can be found in dropdown.less -->
+
+
+                <!--样式定制
                 <li>
                     <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
                 </li>
+                -->
             </ul>
         </div>
     </nav>
